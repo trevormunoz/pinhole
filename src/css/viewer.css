@@ -1,0 +1,11 @@
+.viewer-instance {
+  height: 90vh;
+  margin: auto;
+  width: 40vw;
+}
+
+.cube-grid {
+  margin-top: 45vh;
+  margin-left: auto;
+  margin-right: auto;
+}

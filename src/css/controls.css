@@ -1,0 +1,47 @@
+.osd-controls {
+  display: flex;
+  flex: 1 0 auto;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  margin-top: .5em;
+}
+
+.zoom-controls {
+  display: flex;
+  flex: 2;
+}
+
+.page-controls {
+  display: flex;
+  flex: 1;
+}
+
+.zoom-controls>ul,
+.page-controls>ul {
+  display: flex;
+  flex: 1 0 auto;
+  flex-flow: row nowrap;
+  list-style: none;
+  margin: auto;
+  padding-left: 0;
+}
+
+.zoom-controls>ul {
+  justify-content: flex-start;
+}
+
+.page-controls>ul {
+  justify-content: flex-end;
+}
+
+.zoom-controls li+li,
+.page-controls li+li {
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.icon {
+  height: 1em;
+  width: 1em;
+}
