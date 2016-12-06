@@ -6,3 +6,4 @@ Small experiment combining React and OpenSeadragon for viewing IIIF Presentation
 2. `cd path/to/repo`
 3. `npm install`
 4. `npm start`
+5. [http://localhost:8080](http://localhost:8080)
